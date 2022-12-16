@@ -83,3 +83,11 @@ Edge cases include:
 - checking the length is correct if the rear of the queue is ahead of the front
 - resetting the queue allows pushing at the beginning again and the popping returns false.
 
+# Implementing the CAN driver
+I am not familiar with the CAN protocol, so this is very much a guess.
+
+I have implemented a simple processing looping that pops frames from the queue and processes them.
+
+# Considerations
+RxQueue is no thread safe. 
+
