@@ -89,5 +89,5 @@ I am not familiar with the CAN protocol, so this is very much a guess.
 I have implemented a simple processing looping that pops frames from the queue and processes them.
 
 # Considerations
-RxQueue is no thread safe. 
+RxQueue is not thread safe. 
 
